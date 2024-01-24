@@ -3,12 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34511.98
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BibleTalkAI.FormReaders", "BibleTalkAI.FormReaders\BibleTalkAI.FormReaders.csproj", "{B7EDCC79-4F30-4A77-8A4C-FB920130F529}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BibleTalkAI.FormReaders", "BibleTalkAI.FormReaders\BibleTalkAI.FormReaders.csproj", "{B7EDCC79-4F30-4A77-8A4C-FB920130F529}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{E1396D79-2012-49BE-9ACA-07CB1B56A71E}"
+	ProjectSection(SolutionItems) = preProject
+		.github\CODEOWNERS = .github\CODEOWNERS
+		.github\CODE_OF_CONDUCT.md = .github\CODE_OF_CONDUCT.md
+		.github\FUNDING.yml = .github\FUNDING.yml
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{9A5FBD6D-6E28-4633-92A5-CCF3827FBD35}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\auto-assign.yml = .github\workflows\auto-assign.yml
+		.github\workflows\pr-build.yml = .github\workflows\pr-build.yml
 		.github\workflows\publish.yml = .github\workflows\publish.yml
 	EndProjectSection
 EndProject
